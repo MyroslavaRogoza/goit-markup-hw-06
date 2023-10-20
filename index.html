@@ -17,7 +17,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="header-container container">
         <nav class="header-nav main-nav-container">
           <a href="./index.html" class="page-logo link"
@@ -37,6 +37,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="open-menu-header-btn">
+          <svg width="24" height="24" class="icon-header-menu">
+            <use href="./images/icons.svg#icon-heroicons-solid-menu-1"></use>
+          </svg>
+        </button>
         <address class="header-address">
           <ul class="list header-list-address header-list-container">
             <li class="header-list-address-mail">
@@ -55,7 +60,76 @@
           </ul>
         </address>
       </div>
-    </header> -->
+      <div class="mobile-menu">
+        <div>
+        <button type="button" class="modal-btn">
+          <svg width="8" height="8" class="modal-btn-icon">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <ul class="list mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="link mobile-menu-link">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="" class="link mobile-menu-link">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="" class="link mobile-menu-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <address class="mobile-menu-address">
+          <ul class="list mobile-menu-address">
+            <li class="mobile-menu-address-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="link menu-contact-link"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="mobile-menu-address-item">
+              <a href="tel:+110001111111" class="link menu-contact-link">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+        <ul class="list footer-icon-container">
+          <li class="soc-icon-list">
+            <a href="" class="link icon-link"
+              ><svg width="24" height="24" class="contact-icon footer-icon">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-icon-list">
+            <a href="" class="link icon-link"
+              ><svg width="24" height="24" class="contact-icon footer-icon">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-icon-list">
+            <a href="" class="link icon-link"
+              ><svg width="24" height="24" class="contact-icon footer-icon">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-icon-list">
+            <a href="" class="link icon-link"
+              ><svg width="24" height="24" class="contact-icon footer-icon">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </header>
     <main>
       <section class="main-section-btn section">
         <div class="container main-btn-container">
@@ -514,8 +588,7 @@
         </div>
       </div>
     </footer>
-
-    <!-- <div class="backdrop">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg width="8" height="8" class="modal-btn-icon">
@@ -601,6 +674,6 @@
           <button type="submit" class="main-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
