@@ -151,10 +151,10 @@ img {
   color: #404bbf;
 }
 .mobile-menu-address li:first-child > a {
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
-.menu-contact-link:active{
-  color: #4D5AE5;
+.menu-contact-link:active {
+  color: #4d5ae5;
 }
 .mobile-menu-link:active {
   color: #404bbf;
@@ -710,6 +710,29 @@ button {
 .consert-cont {
   margin-bottom: 24px;
 }
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .main-team-container {
+    justify-content: center;
+  }
+  .footer-soc-media,
+  .footer-social-media-container,
+  .subscr-text {
+    align-self: center;
+  }
+  .footer-social-media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .page-logo {
+    margin-left: 86px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -739,7 +762,8 @@ button {
   .header-list-address:active {
     color: #404bbf;
   }
-  .open-menu-header-btn, .mobile-menu{
+  .open-menu-header-btn,
+  .mobile-menu {
     display: none;
   }
   .header-address {
@@ -821,39 +845,40 @@ button {
     padding-left: 23px;
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 767px) {
   .footer-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
-  .subscr-text {
-    text-align: center;
-  }
   .main-team-container {
     justify-content: center;
   }
-  .footer-soc-media, .footer-social-media-container {
+  .footer-soc-media,
+  .footer-social-media-container,
+  .subscr-text {
     align-self: center;
   }
   .footer-social-media-container {
     display: flex;
-  flex-direction: column;
-  justify-content: center;
+    flex-direction: column;
+    justify-content: center;
   }
   footer .page-logo {
     margin-left: 86px;
   }
-}
+} */
 @media screen and (max-width: 1158px) {
   .footer-container {
     gap: 72px 24px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1158px){
- .modal {
-  } 
- 
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .modal {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
 }
 @media screen and (min-width: 1158px) {
   .container {
