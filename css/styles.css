@@ -444,8 +444,6 @@ img {
   footer .page-logo {
     margin-left: 86px;
   }
-/*------------------------------------------------------------------*/
-
 .footer-soc-media {
   color: #ffffff;
   font-style: normal;
@@ -875,29 +873,6 @@ footer .page-logo {
     margin: 0 auto;
   }
 }
-/* @media screen and (max-width: 767px) {
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .main-team-container {
-    justify-content: center;
-  }
-  .footer-soc-media,
-  .footer-social-media-container,
-  .subscr-text {
-    align-self: center;
-  }
-  .footer-social-media-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  footer .page-logo {
-    margin-left: 86px;
-  }
-} */
 @media screen and (max-width: 1158px) {
   .footer-container {
     gap: 72px 24px;
