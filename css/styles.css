@@ -802,10 +802,6 @@ button {
     gap: 72px 24px;
     margin: 0 auto;
   }
-  .main-desc-header {
-    text-align: left;
-    text-transform: capitalize;
-  }
   .main-desc-list-container .main-desc-header {
     text-align: left;
   }
