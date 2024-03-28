@@ -295,10 +295,10 @@ img {
 }
 .main-desc-header {
   margin-bottom: 8px;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.20;
-letter-spacing: 0.02em;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .text-content {
   font-size: 16px;
@@ -426,13 +426,13 @@ letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .main-team-container {
-    justify-content: center;
-  }
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.main-team-container {
+  justify-content: center;
+}
 .footer-soc-media {
   color: #ffffff;
   font-style: normal;
@@ -732,7 +732,8 @@ button {
     display: block;
     text-align: center;
   }
-  .subscr-text, .footer-soc-media{
+  .subscr-text,
+  .footer-soc-media {
     text-align: center;
   }
 }
@@ -838,7 +839,7 @@ button {
     padding-right: 25px;
     padding-left: 23px;
   }
-  .footer-container{
+  .footer-container {
     flex-direction: row;
     align-items: baseline;
     max-width: 584px;
@@ -1017,4 +1018,7 @@ button {
   .form-textarea:focus-within {
     border-color: #4d5ae5;
   }
+}
+.modal-send-btn:disabled {
+  opacity: 0.5;
 }
